@@ -8,7 +8,7 @@ npm install bootstrap node-sass
 ```
 Install eslint and the team:
 ```sh
-npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import eslint-plugin-jsx-ally eslint-plugin-prettier eslint-plugin-react prettier --save-dev
+npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier --save-dev
 ```
 .eslintrc file
 ```sh
