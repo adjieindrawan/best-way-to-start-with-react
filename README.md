@@ -6,7 +6,8 @@ Install Bootstrap with Node Sass:
 ```sh
 npm install bootstrap node-sass
 ```
-Install Reactstrap with Node Sass:
+
+Install Reactstrap:
 ```sh
 npm install --save reactstrap react react-dom
 ```
