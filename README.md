@@ -4,7 +4,7 @@ My best way to start project with react.js
 
 Install Bootstrap with Node Sass:
 ```sh
-npm install bootstrap node-sass
+npm install bootstrap node-sass react-router-dom
 ```
 
 Install Reactstrap:
