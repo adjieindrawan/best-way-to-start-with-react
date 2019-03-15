@@ -6,6 +6,11 @@ Install Bootstrap with Node Sass:
 ```sh
 npm install bootstrap node-sass
 ```
+Install Reactstrap with Node Sass:
+```sh
+npm install --save reactstrap react react-dom
+```
+
 Install eslint and the team:
 ```sh
 npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier --save-dev
