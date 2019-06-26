@@ -1,5 +1,5 @@
 
-# best-way-start-with-react
+# The best way to start with react
 My best way to start project with react.js
 
 Install Bootstrap with Node Sass:
