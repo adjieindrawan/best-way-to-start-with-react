@@ -19,21 +19,14 @@ npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import esl
 .eslintrc file
 ```sh
 {
-  "extends": [
-    "react-app",
-    "plugin:jsx-a11y/recommended"
-  ],
-  "plugins": [
-    "jsx-a11y",
-    "prettier"
-  ],
+  "extends": ["react-app", "plugin:jsx-a11y/recommended", "prettier/react"],
+  "plugins": ["jsx-a11y", "prettier"],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "jsx-a11y/href-no-hash": [0],
     "radix": [0],
-    "import/no-extraneous-dependencies": [
-      0
-    ]
+    "import/no-extraneous-dependencies": [0]
   }
 }
+
 ```
