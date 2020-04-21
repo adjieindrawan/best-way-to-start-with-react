@@ -9,7 +9,7 @@ npm install bootstrap node-sass react-router-dom
 
 Install Reactstrap:
 ```sh
-npm install --save reactstrap react react-dom
+npm install --save reactstrap
 ```
 
 Install eslint and the team:
