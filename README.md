@@ -16,6 +16,7 @@ Install eslint and the team:
 ```sh
 npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier --save-dev
 ```
+
 .eslintrc file
 ```sh
 {
@@ -29,4 +30,26 @@ npm install eslint babel-eslint eslint-config-react-app eslint-plugin-import esl
   }
 }
 
+```
+
+------------------------------------------------------------------------------------
+
+Another way
+```sh
+npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+```
+
+Package.json
+```sh
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "printWidth": 90,
+    "bracketSpacing": false,
+    "trailingComma": "es5"
+  },
 ```
