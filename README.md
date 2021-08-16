@@ -53,3 +53,37 @@ Package.json
     "trailingComma": "es5"
   },
 ```
+
+------------------------------------------------------------------------------------
+
+NEXT.JS
+```sh
+npm install react-bootstrap@next bootstrap@5.0.2 sass
+```
+
+Image Optimization
+```sh
+npm install next-optimized-images
+npm install --save next-compose-plugins
+npm install imagemin-mozjpeg imagemin-optipng imagemin-svgo
+```
+
+.eslint.json
+```sh
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
+}
+```
+
+.eslint.json
+```sh
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
+}
+```
