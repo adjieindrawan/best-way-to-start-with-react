@@ -77,13 +77,3 @@ npm install imagemin-mozjpeg imagemin-optipng imagemin-svgo
   }
 }
 ```
-
-.eslint.json
-```sh
-{
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "@next/next/no-img-element": "off"
-  }
-}
-```
